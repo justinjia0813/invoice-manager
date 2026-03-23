@@ -1,0 +1,16 @@
+# Dependencies
+__pycache__/
+*.pyc
+
+# Sensitive data - invoices contain personal info
+input/
+archive/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+templates/*_真实*
