@@ -37,7 +37,7 @@ def generate(invoices_data, month):
         ws[f'I{row}'] = inv.get('project', '')
         ws[f'J{row}'] = inv.get('remark', '')
         ws[f'K{row}'] = inv.get('new_name', '')
-        ws[f'L{row}'] = '贾睿童'
+        ws[f'L{row}'] = inv.get('reimburser', '贾睿童')
     
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     wb.save(archive_month)

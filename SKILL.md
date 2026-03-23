@@ -44,7 +44,7 @@ python3 scripts/process_invoices.py input/ --output /tmp/invoice_results.json
 | F | 费用类型 | OCR + 用户确认 |
 | I | 归属项目 | 用户指定 |
 | K | 文件上传 | 重命名后的PDF文件名 |
-| L | 报销人 | 固定：贾睿童 |
+| L | 报销人 | 用户指定（默认贾睿童） |
 
 **归档规则：**
 - 一个月一个汇总表：`archive/{年月}_报销汇总.xlsx`
